@@ -3,7 +3,7 @@ Welcome to the Historical Stock Revenue Analysis repository! This repository con
 
 ## Overview
 
-In this project, I explore historical revenue data of various stocks using Python's data analysis and visualization libraries. The analysis includes data cleaning, manipulation, web scraping and visualization techniques to gain insights into the revenue trends of selected stocks over time.
+In this project, I explored historical revenue data of various stocks using Python's data analysis and visualization libraries. The analysis includes data cleaning, manipulation, web scraping and visualization techniques to gain insights into the revenue trends of selected stocks over time. The main goal of the assignment was to prove that I not only understand the Python code, but can also use it to collect data.
 
 ## Key Features
 
