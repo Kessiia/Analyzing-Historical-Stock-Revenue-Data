@@ -8,6 +8,7 @@ In this project, I explore historical revenue data of various stocks using Pytho
 ## Key Features
 
 - **Data Cleaning and Preprocessing:** Detailed steps for cleaning and preprocessing the historical revenue data.
+- **Web Scraping:** Utilized web scraping techniques to gather additional financial data from online sources.
 - **Revenue Trend Analysis:** Description of the methods used for analyzing revenue trends.
 - **Visualization:** Examples of visualizations created to represent revenue data.
 - **Documentation:** Detailed documentation for code usage and analysis findings.
