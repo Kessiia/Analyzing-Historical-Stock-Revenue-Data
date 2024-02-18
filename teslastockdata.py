@@ -42,6 +42,7 @@ tesla_data.head()
 url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/revenue.htm"
 html_data = requests.get(url).text
 
+#Parse the html data using beautiful_soup
 soup = BeautifulSoup(html_data)
 
 #Using read_html to extract the table, store it in a df and show the first 5 rows.
