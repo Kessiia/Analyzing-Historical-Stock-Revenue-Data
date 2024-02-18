@@ -56,11 +56,12 @@ tesla_revenue.head()
 
 #Cleaning up the table, removing the comma and dollar sign and remove null or empty strings.
 tesla_revenue["Revenue"] = tesla_revenue['Revenue'].str.replace(',|\$',"")
-
 tesla_revenue.dropna(inplace=True)
-
 tesla_revenue = tesla_revenue[tesla_revenue['Revenue'] != ""]
 
 #To display the last 5 rows
 tesla_revenue.tail()
+
+#Plotting Tesla Stock Graph
+make_graph(tesla_data, tesla_revenue, 'Tesla')
 
